@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: royalblue;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.70s;
+    padding: 13px;
+}
+
+nav a:hover {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000000;
+    transition: 0.70s;
+}
+
+nav img {
+    width: 100px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 20%;
+}
+
+.caixamaior {
+    display: flex;
+}
+
+.container {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1e3474;
+    border: 1px solid #00f3f7;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 15px;
+}
+
+.card {
+    text-align: center;
+    align-items: center;
+    background-color: rgb(65, 65, 225);
+    padding: 20px;
+    border: 1px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-shadow: 1px 1px #22fc00;
+    text-decoration: underline rgb(255, 174, 0);
+}
+
+.card button {
+    background-color: #00f7ff;
+    color: #040404;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.card button:hover {
+    background-color: #0800ff;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 883px) {
+    .caixamaior {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav h1 {
+        display: none;
+    }
+
+    nav a {
+        font-size: 25px;
+    }
+}
